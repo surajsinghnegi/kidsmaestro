@@ -23,7 +23,7 @@ if(AdMob) AdMob.createBanner( {
     // isTesting:true, //Remove this Before publishing your app
 
     adId:admobid.banner, 
-      overlap:true, 
+      // overlap:true, 
     position:AdMob.AD_POSITION.BOTTOM_CENTER, 
     autoShow:true} );
   if(AdMob) AdMob.prepareInterstitial( {adId:admobid.interstitial, autoShow:false} );
